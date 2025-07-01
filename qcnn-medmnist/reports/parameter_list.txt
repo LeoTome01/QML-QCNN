@@ -1,0 +1,45 @@
+filename dataset_percentage stride batch_size learning_rate SEED architettura
+bloodmnist_run_023 : 100% 2 8 5e-3           SEED={iniziale}  +2qubit
+bloodmnist_run_024 : 100% 2 32 3e-3          SEED={iniziale}  +2qubit
+bloodmnist_run_025 : 100% 2 32 1e-4          SEED={iniziale}  +2qubit
+bloodmnist_run_026 : 100% 2 32 5e-4          SEED={iniziale}  +2qubit
+bloodmnist_run_027 : 100% 2 32 1e-3          SEED={iniziale}  +2qubit
+bloodmnist_run_028 : 100% 2 32 5e-3          SEED={iniziale}  +2qubit
+bloodmnist_run_030 : 100% 2 32 1e-2          SEED={iniziale}  +2qubit
+
+
+bloodmnist_run_032 : 100% 2 16 1e-3          SEED={iniziale}  +2qubit
+
+
+bloodmnist_run_035 : 10% 2 32 1e-3          SEED={123}  +2qubit
+bloodmnist_run_036 : 100% 2 32 1e-3          SEED={123}  +2qubit
+bloodmnist_run_037 : 100% 2 32 1e-3          SEED={numero = random.randint(0,1000)}  +2qubit
+
+NUOVA ARCHITETTURA: Inserita rete convoluzionale classica prima di quella quantum
+
+bloodmnist_run_038 : 10% 2 32 1e-3 epochs=2      SEED={numero = random.randint(0,1000)}  +2qubit
+bloodmnist_run_039 : 100% 2 32 1e-3 epochs=6      SEED={numero = random.randint(0,1000)}  +2qubit
+bloodmnist_run_040 : 100% 2 32 1e-3 epochs=6      SEED={iniziale}  +2qubit
+
+NUOVA ARCHITETTURA: Modifica della rete, passaggio da 2 a 3 qubit nella rete quantistica convoluzionale
+
+bloodmnist_run_3q_025 : 5% 3 32 1e-3          SEED={123}    +3qubit
+bloodmnist_run_3q_026 : 100% 3 32 1e-3          SEED={123}    +3qubit
+
+CAMBIO DATASET: Cambio dataset da BloodMNIST a PneumoniaMNIST (passaggio da 8 a 2 classi da etichettare)
+
+pneumoniamnist_run_3q_004 : 5% 3 32 1e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_005 : 100% 3 32 1e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_006 : 100% 3 32 5e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_007 : 100% 3 64 1e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_008 : 100% 3 64 5e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_009 : 100% 3 16 1e-3          SEED={123}    +3qubit
+pneumoniamnist_run_3q_010 : 100% 3 16 5e-3          SEED={123}    +3qubit
+
+pneumoniamnist_run_3q_011 : 100% 3 32 1e-3          SEED={iniziale}    +3qubit
+pneumoniamnist_run_3q_012 : 100% 3 32 1e-3          SEED={numero = random.randint(0,1000)}   +3qubit
+
+pneumoniamnist_run_3q_013 : 100% 3 32 1e-4          SEED={123}   +3qubit
+pneumoniamnist_run_3q_014 : 100% 3 32 5e-4          SEED={123}   +3qubit
+pneumoniamnist_run_3q_015 : 100% 3 32 1e-2          SEED={123}   +3qubit
+pneumoniamnist_run_3q_017 : 100% 3 32 5e-2          SEED={123}   +3qubit
